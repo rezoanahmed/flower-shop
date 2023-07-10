@@ -11,6 +11,7 @@
     background-color: #E55473;
     padding: 10px 20px;
     border: 2px solid transparent;
+    border-radius: 8px;
     transition: .5s ease-in-out;
 }
 .btn-primary:hover{
