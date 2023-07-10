@@ -80,3 +80,26 @@
     font-weight: 600;
     margin-top: 10px;
 }
+
+/* supports */
+.supports{
+    width: 80%;
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px auto;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: rgba(39, 39, 39, 0.05);
+
+}
+.support{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.support img{
+    width: 75px;
+}
