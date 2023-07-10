@@ -148,3 +148,31 @@ h2{
 .rectangle img{
     width: 300px;
 }
+/* newsletter */
+.newsletter{
+    width: 80%;
+    height: 200px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    background-image: url("images/Rectangle 9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contents{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.mail input{
+    height: 20px;
+    width: 200px;
+    padding: 12px 15px;
+    margin-right: 2px;
+}
