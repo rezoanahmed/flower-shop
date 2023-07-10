@@ -19,6 +19,15 @@
     background-color: transparent;
     transition: .5s ease-in-out;
 }
+p{
+    font-size: 18px;
+}
+h1{
+    font-size: 54px;
+}
+h2{
+    font-size: 30px;
+}
 /* Header Section */
 .header-container{
     display: flex;
@@ -119,4 +128,23 @@
 } */
 #deals{
     background-color: rgba(229, 84, 115, 0.05);
+}
+
+.instagram{
+    text-align: center;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.rectangles{
+    margin: 10px auto;
+    width: 80%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.rectangle img{
+    width: 300px;
 }
